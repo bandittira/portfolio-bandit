@@ -2,7 +2,6 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import {useRouter} from "next/router"
 import { useEffect,useState } from 'react';
-import MyDocument from './_document';
 
 function Loading(){
   const router = useRouter();

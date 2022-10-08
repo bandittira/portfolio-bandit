@@ -6,7 +6,6 @@ import Footer from '../components/footer';
 import Navbar from '../components/nav'
 import Skill from '../components/skill';
 import Work from '../components/work';
-import MyDocument from './_document';
 
 const Home: NextPage = () => {
   return (

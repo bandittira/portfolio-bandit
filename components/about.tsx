@@ -7,7 +7,7 @@ import SpaceTravel from "./animations/space_travel";
 function About() {
   return (
     <section id="about" className="text-gray-600">
-      <div className="container mx-auto flex lg:px-24 lg:mt-10 lg:py-10 xl:py-32 px-24 sm:px-8 sm:py-16 md:py-12 py-12 md:flex-row flex-col items-center md:justify-between">
+      <div className="container mx-auto flex lg:px-24 lg:mt-10 lg:py-10 xl:py-28 px-24 sm:px-8 sm:py-16 md:py-12 py-12 md:flex-row flex-col items-center md:justify-between">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 items-center text-center">
           <div className="slide_in_right lg:-mt-0 lg:max-w-lg lg:w-full sm:-mt-16 sm:scale-75 xl:hidden lg:hidden md:hidden sm:visible lg:invisible xl:invisible md:invisible md:w-72 w-5/6">
             <Image
@@ -18,7 +18,7 @@ function About() {
               height={600}
             ></Image>
           </div>
-          <div className="absolute top-32 right-3 sm:top-25 sm:right-0 xl:-left-80 xl:top-40 2xl:top-52 md:scale-75 xl:scale-90 scale-50">
+          <div className="absolute top-32 right-3 sm:top-25 sm:right-0 xl:-left-80 xl:top-40 2xl:top-52 md:scale-75 2xl:scale-100 xl:scale-90 scale-50">
             <SpaceTravel />
           </div>
           <div className="absolute bottom-24 -left-56 lg:-left-60 xl:scale-100 sm:top-25 scale-75">
@@ -44,15 +44,15 @@ function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="inline-flex transition duration-300 sm:w-36 ease-in-out hover:-translate-y-1 hover:scale-110 text-white h-14 w-36 bg-[#8873EF] border-0 py-4 px-6 focus:outline-none hover:bg-[#7361C9] rounded-2xl text-sm font-medium">
-                <p className="mt-1">Let&apos;s Talk</p>
+              <button className="inline-flex transition duration-300 sm:w-36 ease-in-out hover:-translate-y-1 hover:scale-110 text-white h-14 w-36 xl:w-40 bg-[#8873EF] border-0 py-4 px-6 focus:outline-none hover:bg-[#7361C9] rounded-2xl text-sm xl:text-base font-medium">
+                <p className="mt-1 xl:mt-0 xl:ml-1">Let&apos;s Talk</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="ml-4 mt-0 w-5 h-5 sm:ml-2 lg:ml-4 -rotate-45 rounded"
+                  className="ml-4 mt-0 w-5 h-5 sm:ml-2 lg:ml-4 xl:ml-5 -rotate-45 rounded"
                 >
                   <path
                     strokeLinecap="round"
@@ -69,15 +69,15 @@ function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="ml-4 inline-flex transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 md:w-auto lg:w-auto h-14 py-3 px-6 focus:outline-none hover:bg-gray-200 rounded-2xl text-sm">
-                <p className="lg:mr-4 md:mr-4 font-medium my-1">Resume</p>
+              <button className="ml-4 inline-flex transition duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 md:w-auto lg:w-auto h-14 py-3 px-6 focus:outline-none hover:bg-gray-200 rounded-2xl text-sm 2xl:text-base xl:text-base">
+                <p className="lg:mr-4 md:mr-4 font-medium my-1 xl:my-1">Resume</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="w-6 h-6 ml-4 lg:ml-1 lg:my-0 my-1"
+                  className="w-6 h-6 ml-4 lg:ml-1  my-1"
                 >
                   <path
                     strokeLinecap="round"

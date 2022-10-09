@@ -44,7 +44,7 @@ function About() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <button className="inline-flex transition duration-300 sm:w-36 ease-in-out hover:-translate-y-1 hover:scale-110 text-white h-14 w-36 xl:w-40 bg-[#8873EF] border-0 py-4 px-6 focus:outline-none hover:bg-[#7361C9] rounded-2xl text-sm xl:text-base font-medium">
+              <button className="inline-flex transition duration-300 sm:w-36 ease-in-out hover:-translate-y-1 hover:scale-110 text-white h-14 w-36 md:w-36 lg:w-40 xl:w-40 bg-[#8873EF] border-0 py-4 px-6 focus:outline-none hover:bg-[#7361C9] rounded-2xl text-sm xl:text-base font-medium">
                 <p className="mt-1 xl:mt-0 xl:ml-1">Let&apos;s Talk</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

@@ -52,7 +52,7 @@ function About() {
                   viewBox="0 0 24 24"
                   strokeWidth="1.5"
                   stroke="currentColor"
-                  className="ml-3 mt-0 w-5 h-5 sm:ml-3 md:ml-4 lg:ml-4 xl:ml-5 -rotate-45 rounded"
+                  className="ml-3 mt-0 w-5 h-5 sm:ml-3 md:ml-4 lg:ml-5 xl:ml-5 -rotate-45 rounded"
                 >
                   <path
                     strokeLinecap="round"

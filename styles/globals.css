@@ -186,3 +186,10 @@ html{
     scroll-behavior: smooth;
 
 }
+
+
+/* CSS only for demo purpose*/
+#btn-back-to-top {
+  position: fixed;
+  display: none;
+}

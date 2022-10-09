@@ -8,15 +8,17 @@ import Skill from '../components/skill';
 import Work from '../components/work';
 
 const Home: NextPage = () => {
+  
   return (
     <>
     <Head>
         <title>Bandit Tirasatian Portfolio</title>
         <meta name='description' content='Portfolio' />
         <link rel='icon' href='/favicon.ico' />
-        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" async/>
       </Head>
-      
+
+
+    
     <main>
       <Navbar></Navbar>
       <About></About>

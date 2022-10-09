@@ -3,10 +3,10 @@ import Animation from './animations/bg_profile';
 function Work() {
   return (
     <section id="work" className="text-gray-600 body-font overflow-hidden">
-        <div className='absolute lg:right-32 lg:mt-16 sm:right-0'>
+        <div className='absolute mt-6 lg:right-32 lg:mt-16 sm:right-0'>
             <Animation></Animation>
         </div>
-        <div className="text-center sm:text-3xl sm:mt-16 lg:mt-24 xs:text-xs text-2xl font-medium title-font text-gray-900">
+        <div className="text-center mt-16 sm:text-3xl sm:mt-16 lg:mt-24 xs:text-xs text-2xl font-medium title-font text-gray-900">
         <h1>My Works</h1>
         </div>
       <div className="container px-5 py-16 mx-auto">

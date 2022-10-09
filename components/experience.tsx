@@ -3,13 +3,13 @@ import Image from "next/image";
 function Experience() {
   return (
     <section id="Experience" className="text-gray-600 body-font">
-      <div className="container px-5 py-24 lg:mt-16 sm:py-0 mx-auto">
-        <div className="flex flex-wrap w-full mb-20">
-          <div className="mb-6 w-screen sm:mb-0 lg:mb-0">
-            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
+      <div className="container px-5 lg:mt-16 sm:py-0 mx-auto">
+        <div className="flex flex-wrap w-full mb-10">
+          <div className="w-screen sm:mb-0 lg:mb-0 text-center">
+            <h1 className="sm:text-3xl text-2xl font-medium title-font mb-0 text-gray-900">
               My Experience
             </h1>
-              <div className="h-1 w-48 bg-[#698BFC] rounded"></div>
+              <div className="h-1 w-48 bg-[#698BFC] rounded invisible"></div>
           </div>
         </div>
 

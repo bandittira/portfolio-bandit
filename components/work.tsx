@@ -11,12 +11,37 @@ function Work() {
         </div>
       <div className="container px-5 py-16 mx-auto">
         <div className="-my-8 divide-y-2 divide-gray-100">
+
+        <div className="py-8 flex flex-wrap md:flex-nowrap">
+            <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+              <span className="font-semibold title-font text-gray-700">
+                Tipco Food Group
+              </span>
+              <span className="mt-1 text-gray-500 text-sm">JAN - MAY 2023</span>
+            </div>
+            <div className="md:flex-grow">
+              <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
+              CO-OPERATIVE EDUCATION @ TIPCO FOOD GROUP
+              </h2>
+              <p className="leading-relaxed">
+              <li> Developed a POS application that uses Flutter and developed it by using state
+              management (Getx) and responsive design.</li>
+              <li> Developed a web application for managing the BOM, raw material, promotion,
+              and store information that uses the ASP.NET Web Form.</li>
+              <li> Designed the database for POS and web application and also did the API that
+              uses ASP.NET Web API.</li>
+
+              </p>
+              
+            </div>
+          </div>
+
           <div className="py-8 flex flex-wrap md:flex-nowrap">
             <div className="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
               <span className="font-semibold title-font text-gray-700">
                 BUMIT
               </span>
-              <span className="mt-1 text-gray-500 text-sm">2021 - Present</span>
+              <span className="mt-1 text-gray-500 text-sm">OCT 2021 - JAN 2023</span>
             </div>
             <div className="md:flex-grow">
               <h2 className="text-2xl font-medium text-gray-900 title-font mb-2">
